@@ -1,0 +1,49 @@
+
+\chapter{Introduction}
+In our high-tech society complex systems with large numbers of processes are becoming increasingly more common. You can find them in nearly all fields, each with different application purposes. There are various reasons for these advancements, such as safety, efficiency and costs. Many jobs require heaps of communication and cooperation to be executed correctly, whether it is communication between people or between machines. For humans, it is natural to communicate with the people in the same room while performing such tasks, while not having to deal with people in a different location doing an unrelated task. The reason for this is that our brain can comprehend physical space and can communicate within this space without the need for a system. For machines however, this is not the case. Often communication between machines goes through global channels. To these channels multiple groups of machines, also groups doing different jobs, are connected. Even if the machines doing their collaborative tasks, are in the same room, they still use these globally managed systems.
+
+As you can imagine, handling the communication through such a global system costs a lot of resources. It takes time to communicate back and forth and in addition you also need more processing space for the large protocols filtering the relevant information from the irrelevant information. Short-range communication also reduces the amount of noise and information loss\cite{yin2021convergence}, which can make a crucial difference in certain situations. For these reasons making the communication of these multi-process systems local in regards to physical space, helps to better utilize the often limited resources and increase the overall performance. 
+
+\section{Problem and goals}
+The main problem which needs to be solved is on how to model physical space in reconfigurable interacting systems. These type of models describe how a system consisting of multiple processes behaves. This includes both the individual behavior of the processes as well as the communication and interactions between them. \cite{tran2013eiseval}. 
+
+The presented solution will have to specify how the physical location of a system affects its own behavior, as well as how it affects its behavior in relation to systems co-located in the same space. To be able to do this, the physical space will have to be implemented as a first-class citizen. This would allow us to reason about their environment based behavior in the same way as the interactions amongst machines themselves. They should be able to share the information amongst each other, deduce it from their environment, and use it to perform the appropriate actions. This all should be implemented in a discrete way to allow for scaling and adjustments. 
+
+\section{Thesis layout}
+After this introduction, we will first go into the background of the topic. We will start by explaining some relevant, recurring, terms for this thesis. After that we will go into more detail about the various types of systems and their building blocks. From this point we will look at known research and results. This includes a literature review on relevant papers and identifying where progress can be made. 
+
+Next up the syntax and the semantics of our system will be presented. This will be done in a step by step manner with the help of examples and important lemmas will be formulated with their formal proofs presented in the appendix. We will start with the syntax, then the semantics and finally the locality of communication will be discussed and implemented.
+
+We will then, with the help of the aforementioned lemmas and examples, we will evaluate the developed system on space and time efficiency. 
+
+Lastly we will conclude our research, summarize what has been achieved, and why the relevance of it relevant. We will also discuss what areas can still improve and talk about possible future work.
+
+% CREATED BY DAVID FRISK, 2016
+%This chapter presents the section levels that can be used in the template. 
+
+%\section{Section levels}
+%\autoref{tab:sections} presents an overview of the section levels that are used in this document. %The number of levels that are numbered and included in the table of contents is set in the settings %file \texttt{Settings.tex}. The levels are shown in Section \ref{Section_ref}.
+
+%This is a new paragraph and should have proper parskip or indentation. Don't forget to cite your %sources~\cite{Brajnik2008}. % '~' becomes space which cannot line break.
+
+%\begin{table}[h]
+%\centering
+%\caption{Section levels} % Table text above table.
+%\begin{tabular}{ll} \hline
+%Name & Command\\ \hline
+%Chapter & \textbackslash\texttt{chapter\{\emph{Chapter name}\}}\\
+%Section & \textbackslash\texttt{section\{\emph{Section name}\}}\\
+%Subsection & \textbackslash\texttt{subsection\{\emph{Subsection name}\}}\\
+%Subsubsection & \textbackslash\texttt{subsubsection\{\emph{Subsubsection name}\}}\\
+%Paragraph & \textbackslash\texttt{paragraph\{\emph{Paragraph name}\}}\\
+%Subparagraph & \textbackslash\texttt{paragraph\{\emph{Subparagraph name}\}}\\ \hline\hline
+%\end{tabular}
+%\label{tab:sections}
+%\end{table}
+
+%\section{Section} \label{Section_ref}
+%\subsection{Subsection}
+%\subsubsection{Subsubsection}
+%\paragraph{Paragraph}
+%\subparagraph{Subparagraph}
+

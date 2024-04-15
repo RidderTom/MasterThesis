@@ -1,0 +1,32 @@
+% CREATED BY DAVID FRISK, 2016
+\chapter{Theoretical correctness}
+We will first go over some essential lemmas, to prove certain behavior of our system. The proofs of these lemmas can be found in the appendix.\\
+Given 2 systems $S_1$ and $S_2$ proof:\\
+\begin{lemma}
+    \begin{enumerate}
+    \item $S_1 \ || \ S_2 \equiv S_2\ ||\ S_1$
+    \item $(S_1 \ ||\ S_2 )\ || \ S_3 \equiv S_1 \ ||\ (S_2 \ || \ S_3)$
+    \item $S_1 \ || \ \Gamma : 0 \equiv S_1$
+\end{enumerate}
+\end{lemma}
+\begin{lemma}
+Lemma 2 is regarding the non-blocking behavior of broadcasted messages.\\ 
+$ch=* \land S_1 \xrightarrow[]{\pi !(\Tilde{v})^{ch}}S_1' \implies S_1\ ||\ S_2 \xrightarrow[]{\pi !(\Tilde{v})^{ch}}S_1'\ ||\ S_2'\quad $ for any $S_2$.\\
+\end{lemma}
+
+\begin{lemma}
+    Lemma 3 shows the blocking of multi cast channels.\\
+$ch\not = * \land S_1 \xrightarrow[]{\pi !(\Tilde{v})^{ch}}S_1' \implies S_1\ ||\ S_2 \xrightarrow[]{\pi !(\Tilde{v})^{ch}}S_1'\ ||\ S_2'\quad$ for any $S_2$ such that:
+\begin{enumerate}
+    \item $ch \in \mathsf{LS} \land S_2 \xrightarrow[]{\pi ?(\Tilde{v})^{ch}}S_2'$\\
+    $\lor$
+    \item $ch \not \in \mathsf{LS}$
+\end{enumerate}
+\end{lemma}
+
+\begin{lemma}
+    This lemma is about the blocking of unicast, to show it should never go unanswered\\
+$S_1 \xrightarrow[]{\Pi \mathsf{G} (\Tilde{v})^{ch}} S_1' \implies S_1 \ || \ S_2 \xrightarrow[]{\tau} S_1' \ || \ S_2'$ for any $S_2$ such that $S_2 \xrightarrow[]{\Pi \mathsf{S} (\Tilde{v})^{ch}} S_2'$. 
+\end{lemma}
+
+

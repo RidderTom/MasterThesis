@@ -1,0 +1,633 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{Brajnik2008}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=BG}{%
+         family={Brajnik},
+         familyi={B\bibinitperiod},
+         given={Giorgio},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM Press}%
+    }
+    \strng{namehash}{BG1}
+    \strng{fullhash}{BG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 10th international ACM SIGACCESS
+  conference on Computers and accessibility - Assets '08}
+    \verb{doi}
+    \verb 10.1145/1414471.1414494
+    \endverb
+    \field{isbn}{9781595939760}
+    \field{pages}{113}
+    \field{title}{{A comparative test of web accessibility evaluation methods}}
+    \verb{url}
+    \verb http://portal.acm.org/citation.cfm?doid=1414471.1414494
+    \endverb
+    \list{location}{1}{%
+      {New York, New York, USA}%
+    }
+    \field{year}{2008}
+  \endentry
+
+  \entry{abd2022model}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=AAY}{%
+         family={Abd\bibnamedelima Alrahman},
+         familyi={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={Yehia},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Azzopardi},
+         familyi={A\bibinitperiod},
+         given={Shaun},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Piterman},
+         familyi={P\bibinitperiod},
+         given={Nir},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{AAYASPN1}
+    \strng{fullhash}{AAYASPN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{International Symposium on Leveraging Applications of
+  Formal Methods}
+    \field{pages}{373\bibrangedash 389}
+    \field{title}{Model checking reconfigurable interacting systems}
+    \field{year}{2022}
+  \endentry
+
+  \entry{vittikh1970multi}{article}{}
+    \name{author}{2}{}{%
+      {{hash=VV}{%
+         family={Vittikh},
+         familyi={V\bibinitperiod},
+         given={VA},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Skobelev},
+         familyi={S\bibinitperiod},
+         given={PO},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {WIT Press}%
+    }
+    \strng{namehash}{VVSP1}
+    \strng{fullhash}{VVSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Multi-agent systems for modelling of self-organization and
+  cooperation processes}
+    \field{volume}{20}
+    \field{journaltitle}{WIT Transactions on Information and Communication
+  Technologies}
+    \field{year}{1970}
+  \endentry
+
+  \entry{ferber1999multi}{book}{}
+    \name{author}{2}{}{%
+      {{hash=FJ}{%
+         family={Ferber},
+         familyi={F\bibinitperiod},
+         given={Jacques},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WG}{%
+         family={Weiss},
+         familyi={W\bibinitperiod},
+         given={Gerhard},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Addison-wesley Reading}%
+    }
+    \strng{namehash}{FJWG1}
+    \strng{fullhash}{FJWG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Multi-agent systems: an introduction to distributed
+  artificial intelligence}
+    \field{volume}{1}
+    \field{year}{1999}
+  \endentry
+
+  \entry{beeson1986proving}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BMJ}{%
+         family={Beeson},
+         familyi={B\bibinitperiod},
+         given={Michael\bibnamedelima J},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{BMJ1}
+    \strng{fullhash}{BMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Studies in Logic and the Foundations of Mathematics}
+    \field{pages}{51\bibrangedash 82}
+    \field{title}{Proving programs and programming proofs}
+    \field{volume}{114}
+    \field{year}{1986}
+  \endentry
+
+  \entry{van2008multi}{article}{}
+    \name{author}{2}{}{%
+      {{hash=VdHW}{%
+         prefix={Van\bibnamedelima der},
+         prefixi={V\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Hoek},
+         familyi={H\bibinitperiod},
+         given={Wiebe},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wooldridge},
+         familyi={W\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{HWVdWM1}
+    \strng{fullhash}{HWVdWM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{887\bibrangedash 928}
+    \field{title}{Multi-agent systems}
+    \field{volume}{3}
+    \field{journaltitle}{Foundations of Artificial Intelligence}
+    \field{year}{2008}
+  \endentry
+
+  \entry{xie2017multi}{article}{}
+    \name{author}{2}{}{%
+      {{hash=XJ}{%
+         family={Xie},
+         familyi={X\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LCC}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Chen-Ching},
+         giveni={C\bibinithyphendelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{XJLCC1}
+    \strng{fullhash}{XJLCC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{188\bibrangedash 197}
+    \field{title}{Multi-agent systems and their applications}
+    \field{volume}{7}
+    \field{journaltitle}{Journal of International Council on Electrical
+  Engineering}
+    \field{year}{2017}
+  \endentry
+
+  \entry{SelfdSE}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{note}{Accessed: 2024-04-03}
+    \field{title}{{Transport Styrelsen} Automated vehicles}
+    \verb{url}
+    \verb https://www.transportstyrelsen.se/en/road/Vehicles/self-driving-vehic
+    \verb les/#:~:text=The%20Swedish%20Transport%20Agency%20issues,in%20a%20tra
+    \verb ffic%2Dsafe%20manner
+    \endverb
+  \endentry
+
+  \entry{ferscha2015collective}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FA}{%
+         family={Ferscha},
+         familyi={F\bibinitperiod},
+         given={Alois},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FA1}
+    \strng{fullhash}{FA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Adjunct Proceedings of the 2015 ACM International Joint
+  Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2015
+  ACM International Symposium on Wearable Computers}
+    \field{pages}{893\bibrangedash 895}
+    \field{title}{Collective adaptive systems}
+    \field{year}{2015}
+  \endentry
+
+  \entry{busetta2002channeled}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=BP}{%
+         family={Busetta},
+         familyi={B\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dona},
+         familyi={D\bibinitperiod},
+         given={Antonia},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Nori},
+         familyi={N\bibinitperiod},
+         given={Michele},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BPDANM1}
+    \strng{fullhash}{BPDANM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the first international joint conference
+  on Autonomous agents and multiagent systems: part 3}
+    \field{pages}{1280\bibrangedash 1287}
+    \field{title}{Channeled multicast for group communications}
+    \field{year}{2002}
+  \endentry
+
+  \entry{milner1980calculus}{book}{}
+    \name{author}{1}{}{%
+      {{hash=MR}{%
+         family={Milner},
+         familyi={M\bibinitperiod},
+         given={Robin},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{MR1}
+    \strng{fullhash}{MR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{A calculus of communicating systems}
+    \field{year}{1980}
+  \endentry
+
+  \entry{milner1993polyadic}{book}{}
+    \name{author}{1}{}{%
+      {{hash=MR}{%
+         family={Milner},
+         familyi={M\bibinitperiod},
+         given={Robin},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{MR1}
+    \strng{fullhash}{MR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{The polyadic $\pi$-calculus: a tutorial}
+    \field{year}{1993}
+  \endentry
+
+  \entry{abd2021modelling}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AAY}{%
+         family={Abd\bibnamedelima Alrahman},
+         familyi={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={Yehia},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Piterman},
+         familyi={P\bibinitperiod},
+         given={Nir},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{AAYPN1}
+    \strng{fullhash}{AAYPN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{47}
+    \field{title}{Modelling and verification of reconfigurable multi-agent
+  systems}
+    \field{volume}{35}
+    \field{journaltitle}{Autonomous Agents and Multi-Agent Systems}
+    \field{year}{2021}
+  \endentry
+
+  \entry{alrahman2023language}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AYA}{%
+         family={Alrahman},
+         familyi={A\bibinitperiod},
+         given={Yehia\bibnamedelima Abd},
+         giveni={Y\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Azzopardi},
+         familyi={A\bibinitperiod},
+         given={Shaun},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DSL}{%
+         family={Di\bibnamedelima Stefano},
+         familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Piterman},
+         familyi={P\bibinitperiod},
+         given={Nir},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{AYAASDSL+1}
+    \strng{fullhash}{AYAASDSLPN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{1\bibrangedash 20}
+    \field{title}{Language support for verifying reconfigurable interacting
+  systems}
+    \field{journaltitle}{International Journal on Software Tools for Technology
+  Transfer}
+    \field{year}{2023}
+  \endentry
+
+  \entry{tran2013eiseval}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TCD}{%
+         family={Tran},
+         familyi={T\bibinitperiod},
+         given={Chi\bibnamedelima Dung},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=EH}{%
+         family={Ezzedine},
+         familyi={E\bibinitperiod},
+         given={Houcine},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=KC}{%
+         family={Kolski},
+         familyi={K\bibinitperiod},
+         given={Christophe},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{TCDEHKC1}
+    \strng{fullhash}{TCDEHKC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{6}
+    \field{pages}{725\bibrangedash 761}
+    \field{title}{EISEval, a generic reconfigurable environment for evaluating
+  agent-based interactive systems}
+    \field{volume}{71}
+    \field{journaltitle}{International Journal of Human-Computer Studies}
+    \field{year}{2013}
+  \endentry
+
+  \entry{bay1999fundamentals}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BJ}{%
+         family={Bay},
+         familyi={B\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ1}
+    \strng{fullhash}{BJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Fundamentals of linear state space systems}
+    \field{year}{1999}
+  \endentry
+
+  \entry{yin2021convergence}{article}{}
+    \name{author}{4}{}{%
+      {{hash=YX}{%
+         family={Yin},
+         familyi={Y\bibinitperiod},
+         given={Xiuxia},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=GZ}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Zhiwei},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=YD}{%
+         family={Yue},
+         familyi={Y\bibinitperiod},
+         given={Dong},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FY}{%
+         family={Fu},
+         familyi={F\bibinitperiod},
+         given={Yichuan},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{YXGZYD+1}
+    \strng{fullhash}{YXGZYDFY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{109659}
+    \field{title}{Convergence of velocities for the short range communicated
+  discrete-time Cucker--Smale model}
+    \field{volume}{129}
+    \field{journaltitle}{Automatica}
+    \field{year}{2021}
+  \endentry
+
+  \entry{kosar2004stork}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=KT}{%
+         family={Kosar},
+         familyi={K\bibinitperiod},
+         given={Tevfik},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Livny},
+         familyi={L\bibinitperiod},
+         given={Miron},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{KTLM1}
+    \strng{fullhash}{KTLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{24th International Conference on Distributed Computing
+  Systems, 2004. Proceedings.}
+    \field{pages}{342\bibrangedash 349}
+    \field{title}{Stork: Making data placement a first class citizen in the
+  grid}
+    \field{year}{2004}
+  \endentry
+
+  \entry{bandini2004multi}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BS}{%
+         family={Bandini},
+         familyi={B\bibinitperiod},
+         given={Stefania},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Manzoni},
+         familyi={M\bibinitperiod},
+         given={Sara},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=VG}{%
+         family={Vizzari},
+         familyi={V\bibinitperiod},
+         given={Giuseppe},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOS Press}%
+    }
+    \strng{namehash}{BSMSVG1}
+    \strng{fullhash}{BSMSVG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{155\bibrangedash 166}
+    \field{title}{Multi-agent approach to localization problems: The case of
+  multilayered multi-agent situated system}
+    \field{volume}{2}
+    \field{journaltitle}{Web Intelligence and Agent Systems: An International
+  Journal}
+    \field{year}{2004}
+  \endentry
+
+  \entry{koomen1991calculus}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KC}{%
+         family={Koomen},
+         familyi={K\bibinitperiod},
+         given={CJ},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KC}{%
+         family={Koomen},
+         familyi={K\bibinitperiod},
+         given={CJ},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{KCKC1}
+    \strng{fullhash}{KCKC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{11\bibrangedash 26}
+    \field{title}{Calculus of communicating systems}
+    \field{journaltitle}{The Design of Communicating Systems: A System
+  Engineering Approach}
+    \field{year}{1991}
+  \endentry
+
+  \entry{randell1992spatial}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RDA}{%
+         family={Randell},
+         familyi={R\bibinitperiod},
+         given={David\bibnamedelima A},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CZ}{%
+         family={Cui},
+         familyi={C\bibinitperiod},
+         given={Zhan},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CAG}{%
+         family={Cohn},
+         familyi={C\bibinitperiod},
+         given={Anthony\bibnamedelima G},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RDACZCAG1}
+    \strng{fullhash}{RDACZCAG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{165\bibrangedash 176}
+    \field{title}{A spatial logic based on regions and connection.}
+    \field{volume}{92}
+    \field{journaltitle}{KR}
+    \field{year}{1992}
+  \endentry
+\enddatalist
+\endinput
